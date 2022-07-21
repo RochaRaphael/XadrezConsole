@@ -1,21 +1,21 @@
-﻿namespace XadrezConsole.Tabuleiro
+﻿namespace XadrezConsole.tabuleiro
 {
     internal class Posicao
     {
-        public int Linha { get; set; }
-        public int Coluna { get; set; }
+        public int linha { get; set; }
+        public int coluna { get; set; }
 
         public Posicao(int linha, int coluna)
         {
-            Linha = linha;
-            Coluna = coluna;
+            linha = linha;
+            coluna = coluna;
         }
 
         public override string ToString()
         {
-            return Linha
+            return linha
                 + ", "
-                + Coluna;
+                + coluna;
         }
 
     }
